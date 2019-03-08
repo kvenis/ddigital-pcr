@@ -19,7 +19,7 @@ from io import StringIO
 from matplotlib import style
 
 infile = sys.argv[1]
-outfolder = "/Volumes/Pathology/Molecular Pathology/Test Development/ddPCR BCR-ABL/Experiments and Raw Data/Analyzed_results_ddpcr/ddPCR_Results_version3.1"
+outfolder = "/ddPCR BCR-ABL/Experiments and Raw Data/Analyzed_results_ddpcr/ddPCR_Results_version3.1"
 print(outfolder.replace(" ", "\ "))
 print(infile)
 data = pd.read_excel(sys.argv[1], sheetname='Sheet')
