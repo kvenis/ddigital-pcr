@@ -16,7 +16,7 @@ from io import StringIO
 
 
 infile = sys.argv[1]
-outfolder = "/opt/molpath_sdrive/Active Validated Tests/BCR_ABL ddPCR pipeline output"
+outfolder = "/BCR_ABL ddPCR pipeline output"
 print(outfolder.replace(" ", "\ "))
 print(infile)
 data = pd.read_excel(sys.argv[1], sheet_name='Sheet')
